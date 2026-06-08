@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A project case study from Ryan Situ's personal portfolio."
+      data-i18n-content="caseMetaDescription"
+    />
+    <title>Ryan Situ | Project Case Study</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skipLink">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation" data-i18n-aria-label="navLabel">
+        <a class="brand" href="index.html#top" aria-label="Back to home" data-i18n-aria-label="brandAria">
+          <span class="brand-mark" aria-hidden="true">RS</span>
+          <span>Ryan Situ</span>
+        </a>
+
+        <div class="nav-actions">
+          <div class="nav-links" id="nav-links">
+            <a href="index.html#about" data-i18n="navAbout">About</a>
+            <a href="index.html#projects" data-i18n="navProjects">Projects</a>
+            <a href="index.html#skills" data-i18n="navSkills">Skills</a>
+          </div>
+
+          <div class="language-switch" aria-label="Language" data-i18n-aria-label="languageLabel">
+            <button type="button" data-lang="zh-Hant" aria-pressed="false">繁</button>
+            <button type="button" data-lang="zh-Hans" aria-pressed="false">简</button>
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          </div>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Open navigation"
+            data-i18n-aria-label="navToggleOpen"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="project-detail-main" data-project-detail>
+      <section class="case-hero">
+        <a class="back-link" href="index.html#projects" data-case-back>Back to selected projects</a>
+
+        <div class="case-hero-grid">
+          <div class="case-hero-copy">
+            <p class="eyebrow" data-case-eyebrow>Project Case Study</p>
+            <h1 data-case-title>Project Case Study</h1>
+            <div class="case-summary" data-case-summary>
+              <p>Loading project details...</p>
+            </div>
+            <div class="case-actions" data-case-links></div>
+          </div>
+
+          <div class="case-visual" data-case-visual aria-hidden="true"></div>
+        </div>
+
+        <dl class="case-meta" data-case-meta></dl>
+      </section>
+
+      <section class="case-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-case-detail-eyebrow>Recruiter Snapshot</p>
+          <h2 data-case-detail-title>What this project proves</h2>
+        </div>
+        <div class="case-proof-grid" data-case-proof></div>
+      </section>
+
+      <section class="case-section evidence-section" data-case-gallery-section hidden>
+        <div class="section-heading">
+          <p class="eyebrow" data-case-gallery-eyebrow>Visual Evidence</p>
+          <h2 data-case-gallery-title>Live screenshots and verified details</h2>
+        </div>
+        <div class="case-gallery" data-case-gallery></div>
+      </section>
+
+      <section class="case-section muted-case">
+        <div class="section-heading">
+          <p class="eyebrow" data-case-build-eyebrow>Build Notes</p>
+          <h2 data-case-build-title>Problem, solution, and outcome</h2>
+        </div>
+        <div class="case-story" data-case-story></div>
+      </section>
+
+      <section class="case-section">
+        <div class="case-next">
+          <div>
+            <p class="eyebrow" data-case-next-eyebrow>Next Step</p>
+            <h2 data-case-next-title>Want the short version?</h2>
+            <p data-case-next-body>
+              Return to the homepage to compare all selected projects quickly.
+            </p>
+          </div>
+          <a class="button primary" href="index.html#projects" data-case-next-link>Back to Projects</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><span data-i18n="copyrightPrefix">©</span> <span id="year"></span> Ryan Situ. <span data-i18n="footerNote">Built with care.</span></p>
+    </footer>
+
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/vendor/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
