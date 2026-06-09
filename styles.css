@@ -96,6 +96,18 @@ select {
   font-weight: 800;
 }
 
+.brand-name {
+  display: grid;
+  gap: 1px;
+  line-height: 1.08;
+}
+
+.brand-local {
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
 .brand-mark {
   align-items: center;
   aspect-ratio: 1;
@@ -2082,8 +2094,12 @@ h3 {
     font-size: 2.35rem;
   }
 
-  .brand span:last-child {
-    max-width: 120px;
+  .brand-name {
+    max-width: 126px;
+    overflow: hidden;
+  }
+
+  .brand-name span {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

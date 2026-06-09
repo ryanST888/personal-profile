@@ -463,7 +463,9 @@ const translations = {
 
 Object.assign(translations["zh-Hant"], {
   skillPythonAdvanced: "Python（高級）",
-  skillCadArchitecture: "CAD 建築設計",
+  skillVibeCoding: "Codex 等 AI Vibe Coding 工具資深運用",
+  skillAgentWorkflow: "Agent 自動化工作流設計",
+  skillSketchUp: "草圖大師（SketchUp）",
   skillLanguages: "中文流利（普通話 / 粵語）；英語熟練",
   activitiesEyebrow: "活動與成就",
   activitiesTitle: "活動經歷與榮譽成就",
@@ -495,7 +497,9 @@ Object.assign(translations["zh-Hant"], {
 
 Object.assign(translations["zh-Hans"], {
   skillPythonAdvanced: "Python（高级）",
-  skillCadArchitecture: "CAD 建筑设计",
+  skillVibeCoding: "Codex 等 AI Vibe Coding 工具资深运用",
+  skillAgentWorkflow: "Agent 自动化工作流设计",
+  skillSketchUp: "草图大师（SketchUp）",
   skillLanguages: "中文流利（普通话 / 粤语）；英语熟练",
   activitiesEyebrow: "活动与成就",
   activitiesTitle: "活动经历与荣誉成就",
@@ -527,7 +531,9 @@ Object.assign(translations["zh-Hans"], {
 
 Object.assign(translations.en, {
   skillPythonAdvanced: "Python (advanced)",
-  skillCadArchitecture: "CAD architectural drafting",
+  skillVibeCoding: "Advanced use of Codex and AI vibe-coding tools",
+  skillAgentWorkflow: "Agent automation workflow design",
+  skillSketchUp: "SketchUp",
   skillLanguages: "Fluent Chinese (Mandarin / Cantonese); proficient English",
   activitiesEyebrow: "Activities & Achievements",
   activitiesTitle: "Additional Activities & Achievements",
