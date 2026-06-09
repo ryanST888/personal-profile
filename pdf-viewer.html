@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="EcoWing project presentation PDF from Ryan Situ's portfolio."
+      data-i18n-content="pdfMetaDescription"
+    />
+    <title>Ryan Situ | EcoWing Presentation PDF</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page-title-key="pdfTitle">
+    <a class="skip-link" href="#main" data-i18n="skipLink">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Main navigation" data-i18n-aria-label="navLabel">
+        <a class="brand" href="index.html#top" aria-label="Back to home" data-i18n-aria-label="brandAria">
+          <span class="brand-mark" aria-hidden="true">RS</span>
+          <span>Ryan Situ</span>
+        </a>
+
+        <div class="nav-actions">
+          <div class="nav-links" id="nav-links">
+            <a href="index.html#about" data-i18n="navAbout">About</a>
+            <a href="index.html#projects" data-i18n="navProjects">Projects</a>
+            <a href="index.html#skills" data-i18n="navSkills">Skills</a>
+          </div>
+
+          <div class="language-switch" aria-label="Language" data-i18n-aria-label="languageLabel">
+            <button type="button" data-lang="zh-Hant" aria-pressed="false">繁</button>
+            <button type="button" data-lang="zh-Hans" aria-pressed="false">简</button>
+            <button type="button" data-lang="en" aria-pressed="true">EN</button>
+          </div>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Open navigation"
+            data-i18n-aria-label="navToggleOpen"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="pdf-viewer-main">
+      <section class="pdf-viewer-hero">
+        <a class="back-link" href="project.html?project=ecowing" data-i18n="pdfBack">Back to EcoWing case study</a>
+        <p class="eyebrow" data-i18n="pdfEyebrow">Project PDF</p>
+        <h1 data-i18n="pdfHeading">EcoWing Presentation PDF</h1>
+        <p data-i18n="pdfBody">
+          Watermarked TPE presentation material for the EcoWing project, shown here as an embedded PDF.
+        </p>
+        <a
+          class="button secondary"
+          href="assets/documents/ecowing-tpe-watermarked.pdf"
+          target="_blank"
+          rel="noreferrer"
+          data-i18n="pdfOpenRaw"
+        >
+          Open Original PDF
+        </a>
+      </section>
+
+      <section class="pdf-frame-section">
+        <object
+          class="pdf-frame"
+          data="assets/documents/ecowing-tpe-watermarked.pdf"
+          type="application/pdf"
+          aria-label="EcoWing PDF viewer"
+          data-i18n-aria-label="pdfFrameLabel"
+        >
+          <p class="pdf-fallback">
+            <span data-i18n="pdfFallbackText">If the PDF preview does not load,</span>
+            <a href="assets/documents/ecowing-tpe-watermarked.pdf" target="_blank" rel="noreferrer" data-i18n="pdfFallbackLink">
+              open the PDF directly.
+            </a>
+          </p>
+        </object>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p><span data-i18n="copyrightPrefix">©</span> <span id="year"></span> Ryan Situ. <span data-i18n="footerNote">Built with care.</span></p>
+    </footer>
+
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script src="assets/vendor/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -5,6 +5,16 @@ const translations = {
     metaDescription:
       "Ryan Situ 的個人作品集網站，用於軟件工程、AI 工程與數據分析實習機會。",
     caseMetaDescription: "Ryan Situ 的項目案例研究，展示角色、問題、方案與成果。",
+    pdfMetaDescription: "EcoWing 項目的完整展示 PDF，可在頁面中直接預覽。",
+    pdfTitle: "Ryan Situ | EcoWing 展示 PDF",
+    pdfBack: "返回 EcoWing 項目案例",
+    pdfEyebrow: "項目 PDF",
+    pdfHeading: "EcoWing 完整展示文件",
+    pdfBody: "這是 EcoWing 項目的加水印版 TPE presentation 材料，可在此頁直接預覽。",
+    pdfOpenRaw: "打開原始 PDF",
+    pdfFrameLabel: "EcoWing PDF 預覽器",
+    pdfFallbackText: "如果 PDF 預覽無法載入，",
+    pdfFallbackLink: "請直接打開 PDF。",
     skipLink: "跳到主要內容",
     navLabel: "主導航",
     brandAria: "返回首頁",
@@ -89,20 +99,20 @@ const translations = {
     techathonBody:
       "為 EcoWing 獨立編寫完整 Web 端，展示以無人機檢測概念輔助海岸垃圾治理的 AI 項目，並進入全球賽區決賽。",
     projectsEyebrow: "代表作品",
-    projectsTitle: "精選項目：解決真實場景的問題",
+    projectsTitle: "代表項目",
     projectsIntro:
-      "以 HR 易掃讀的方式展示我的 AI、Web 與 Python 項目，快速看清角色、問題、方案與亮點。",
+      "選擇一個項目查看完整案例、頁面截圖、我的職責與技術實現。",
     projectRoleLabel: "角色",
     projectProblemLabel: "問題",
     projectHighlightLabel: "亮點",
-    viewCaseStudy: "查看案例",
+    viewCaseStudy: "查看詳情",
     liveDemo: "Live Demo",
     githubRepo: "GitHub",
     projectEcoWingAria: "打開 EcoWing 項目",
     projectEcoWingType: "AI · ESG · 無人機海岸治理",
     projectEcoWingStack: "EcoWing 技術棧",
     projectEcoWingBody:
-      "EcoWing 是 AI 驅動型海岸廢物治理 Web 平台。我負責將 pitch 概念轉化為可交互產品介面，展示無人機巡查、YOLO 檢測、數據分析與清潔規劃流程。",
+      "AI + Drone Mapping 的海岸廢物治理平台。",
     projectEcoWingRole: "整個 Web 端開發者",
     projectEcoWingProblem: "海岸垃圾難以大規模檢測、分類與轉化為報告證據。",
     projectEcoWingHighlight: "Live 頁面可見 130K tons/year、733KM shoreline 與 <5 min triage 指標。",
@@ -111,15 +121,15 @@ const translations = {
     projectCampusStack: "HKMU Campus Wall 技術棧",
     projectCampusImageAlt: "HKMU 校園平台首頁截圖",
     projectCampusBody:
-      "為 HKMU 師生設計的校園博客與論壇平台，圍繞發布、探索、互動與響應式使用體驗搭建。",
+      "面向 HKMU 師生的校園交流與內容平台。",
     projectCampusRole: "前端與產品功能實現",
     projectCampusProblem: "學生資訊與技能展示需要更清晰的校園交流入口。",
     projectCampusHighlight: "Live 原型可見 4 個學年、6 個課程類別，以及社區/新聞路由。",
-    projectStatusCaseStudy: "案例",
+    projectStatusCaseStudy: "詳情",
     projectBookingStack: "Consultation Booking System 技術棧",
     projectBookingType: "Python 工具",
     projectBookingBody:
-      "基於 Python 的師生諮詢預約流程，聚焦公平排期並降低人工協調成本。",
+      "基於 Python 的師生諮詢預約排期工具。",
     projectBookingRole: "Python 邏輯與排期流程",
     projectBookingProblem: "人工預約容易出現衝突、插隊與時間段不清晰。",
     projectBookingHighlight: "先到先得預約邏輯，配合可用時間段管理。",
@@ -148,6 +158,16 @@ const translations = {
     metaDescription:
       "Ryan Situ 的个人作品集网站，用于软件工程、AI 工程与数据分析实习机会。",
     caseMetaDescription: "Ryan Situ 的项目案例研究，展示角色、问题、方案与成果。",
+    pdfMetaDescription: "EcoWing 项目的完整展示 PDF，可在页面中直接预览。",
+    pdfTitle: "Ryan Situ | EcoWing 展示 PDF",
+    pdfBack: "返回 EcoWing 项目案例",
+    pdfEyebrow: "项目 PDF",
+    pdfHeading: "EcoWing 完整展示文件",
+    pdfBody: "这是 EcoWing 项目的加水印版 TPE presentation 材料，可在此页直接预览。",
+    pdfOpenRaw: "打开原始 PDF",
+    pdfFrameLabel: "EcoWing PDF 预览器",
+    pdfFallbackText: "如果 PDF 预览无法加载，",
+    pdfFallbackLink: "请直接打开 PDF。",
     skipLink: "跳到主要内容",
     navLabel: "主导航",
     brandAria: "返回首页",
@@ -232,20 +252,20 @@ const translations = {
     techathonBody:
       "为 EcoWing 独立编写完整 Web 端，展示以无人机检测概念辅助海岸垃圾治理的 AI 项目，并进入全球赛区决赛。",
     projectsEyebrow: "代表作品",
-    projectsTitle: "精选项目：解决真实场景的问题",
+    projectsTitle: "代表项目",
     projectsIntro:
-      "以 HR 易扫读的方式展示我的 AI、Web 与 Python 项目，快速看清角色、问题、方案与亮点。",
+      "选择一个项目查看完整案例、页面截图、我的职责与技术实现。",
     projectRoleLabel: "角色",
     projectProblemLabel: "问题",
     projectHighlightLabel: "亮点",
-    viewCaseStudy: "查看案例",
+    viewCaseStudy: "查看详情",
     liveDemo: "Live Demo",
     githubRepo: "GitHub",
     projectEcoWingAria: "打开 EcoWing 项目",
     projectEcoWingType: "AI · ESG · 无人机海岸治理",
     projectEcoWingStack: "EcoWing 技术栈",
     projectEcoWingBody:
-      "EcoWing 是 AI 驱动型海岸废物治理 Web 平台。我负责将 pitch 概念转化为可交互产品界面，展示无人机巡查、YOLO 检测、数据分析与清洁规划流程。",
+      "AI + Drone Mapping 的海岸废物治理平台。",
     projectEcoWingRole: "整个 Web 端开发者",
     projectEcoWingProblem: "海岸垃圾难以大规模检测、分类与转化为报告证据。",
     projectEcoWingHighlight: "Live 页面可见 130K tons/year、733KM shoreline 与 <5 min triage 指标。",
@@ -254,15 +274,15 @@ const translations = {
     projectCampusStack: "HKMU Campus Wall 技术栈",
     projectCampusImageAlt: "HKMU 校园平台首页截图",
     projectCampusBody:
-      "为 HKMU 师生设计的校园博客与论坛平台，围绕发布、探索、互动与响应式使用体验搭建。",
+      "面向 HKMU 师生的校园交流与内容平台。",
     projectCampusRole: "前端与产品功能实现",
     projectCampusProblem: "学生资讯与技能展示需要更清晰的校园交流入口。",
     projectCampusHighlight: "Live 原型可见 4 个学年、6 个课程类别，以及社区/新闻路由。",
-    projectStatusCaseStudy: "案例",
+    projectStatusCaseStudy: "详情",
     projectBookingStack: "Consultation Booking System 技术栈",
     projectBookingType: "Python 工具",
     projectBookingBody:
-      "基于 Python 的师生咨询预约流程，聚焦公平排期并降低人工协调成本。",
+      "基于 Python 的师生咨询预约排期工具。",
     projectBookingRole: "Python 逻辑与排期流程",
     projectBookingProblem: "人工预约容易出现冲突、插队与时间段不清晰。",
     projectBookingHighlight: "先到先得预约逻辑，配合可用时间段管理。",
@@ -292,6 +312,16 @@ const translations = {
       "Ryan Situ's personal portfolio for software engineering, AI engineering, and data analyst internship opportunities.",
     caseMetaDescription:
       "A project case study from Ryan Situ's personal portfolio, showing role, problem, solution, and outcome.",
+    pdfMetaDescription: "The full EcoWing project presentation PDF, viewable directly in the page.",
+    pdfTitle: "Ryan Situ | EcoWing Presentation PDF",
+    pdfBack: "Back to EcoWing case study",
+    pdfEyebrow: "Project PDF",
+    pdfHeading: "EcoWing Presentation PDF",
+    pdfBody: "Watermarked TPE presentation material for the EcoWing project, shown here as an embedded PDF.",
+    pdfOpenRaw: "Open Original PDF",
+    pdfFrameLabel: "EcoWing PDF viewer",
+    pdfFallbackText: "If the PDF preview does not load,",
+    pdfFallbackLink: "open the PDF directly.",
     skipLink: "Skip to main content",
     navLabel: "Main navigation",
     brandAria: "Back to home",
@@ -376,20 +406,20 @@ const translations = {
     techathonBody:
       "Built the full EcoWing web experience for an AI-assisted coastal waste project using drone-based detection concepts, and reached the global finalist stage.",
     projectsEyebrow: "Selected Work",
-    projectsTitle: "Selected Projects Built for Real Problems",
+    projectsTitle: "Selected Projects",
     projectsIntro:
-      "A quick view of my strongest AI, web, and Python projects, written for recruiters to scan the role, problem, solution, and proof in seconds.",
+      "Choose a project to view the full case study, screenshots, role, and implementation details.",
     projectRoleLabel: "Role",
     projectProblemLabel: "Problem",
     projectHighlightLabel: "Highlight",
-    viewCaseStudy: "View Case Study",
+    viewCaseStudy: "View Details",
     liveDemo: "Live Demo",
     githubRepo: "GitHub",
     projectEcoWingAria: "Open EcoWing project",
     projectEcoWingType: "AI · ESG · Drone Mapping",
     projectEcoWingStack: "EcoWing technology stack",
     projectEcoWingBody:
-      "EcoWing is an AI-powered coastal waste management web platform. I turned the pitch concept into an interactive interface for drone inspection, YOLO detection, data analytics, and cleanup planning.",
+      "AI + drone mapping platform for coastal waste management.",
     projectEcoWingRole: "Full web developer",
     projectEcoWingProblem: "Coastal waste is hard to detect, classify, and report at scale.",
     projectEcoWingHighlight: "Live page shows 130K tons/year, 733KM shoreline, and <5 min triage metrics.",
@@ -398,15 +428,15 @@ const translations = {
     projectCampusStack: "HKMU Campus Wall technology stack",
     projectCampusImageAlt: "HKMU Campus Platform homepage screenshot",
     projectCampusBody:
-      "A campus blog and forum platform for HKMU students and staff, designed around posting, discovery, interaction, and responsive usage.",
+      "Campus communication and content platform for HKMU students and staff.",
     projectCampusRole: "Frontend and product implementation",
     projectCampusProblem: "Student information and skill sharing needs a clearer campus channel.",
     projectCampusHighlight: "Live prototype shows 4 year groups, 6 course categories, and community/news routes.",
-    projectStatusCaseStudy: "Case Study",
+    projectStatusCaseStudy: "Details",
     projectBookingStack: "Consultation Booking System technology stack",
     projectBookingType: "Python Tool",
     projectBookingBody:
-      "A Python-based appointment workflow for professor consultation slots, focused on fair scheduling and lower manual coordination.",
+      "Python scheduling tool for professor-student consultation booking.",
     projectBookingRole: "Python logic and scheduling flow",
     projectBookingProblem: "Manual consultation booking creates conflicts and unclear queue order.",
     projectBookingHighlight: "First-come, first-served reservation logic with time-slot availability.",
@@ -553,9 +583,9 @@ const projectCaseStudies = {
           detailEyebrow: "Platform Capabilities",
           detailTitle: "How the EcoWing platform supports coastal waste management",
           galleryEyebrow: "Live Web Screens",
-          galleryTitle: "Product flows visible in the live site",
+          galleryTitle: "Page Overview",
           buildEyebrow: "Case Study",
-          buildTitle: "Project overview, innovation, importance, and future growth",
+          buildTitle: "Innovation, importance, and future growth",
         },
         summary: [
           "EcoWing is an AI-powered coastal waste management platform developed for the HK Techathon ESG Pitch. The project explores how drone mapping, computer vision, and data analytics can be integrated into a scalable digital system to support coastal waste detection, monitoring, and cleanup planning.",
@@ -592,11 +622,22 @@ const projectCaseStudies = {
             alt: "EcoWing login modal",
             caption: "Login: protected entry for managing reports and platform workflows.",
           },
+          {
+            src: "assets/project-screenshots/ecowing-solution-data-analytics.png",
+            alt: "EcoWing solution slide explaining the data analytics workflow",
+            caption: "Our Solution: Data Analytics connects the live cleanliness map, comprehensive waste reports, and data-based performance evaluation into a cleanup decision workflow.",
+          },
         ],
         links: [
           { label: "Live Demo", href: "https://ecowing.hk", primary: true },
           { label: "GitHub", href: "https://github.com/ryanST888/Ecowing-main" },
         ],
+        resource: {
+          eyebrow: "Project PDF",
+          title: "View EcoWing pitch document",
+          body: "Open the watermarked TPE PDF for the full presentation material.",
+          href: "pdf-viewer.html",
+        },
         meta: [
           [
             "Role",
@@ -627,20 +668,85 @@ const projectCaseStudies = {
         ],
         story: [
           {
-            title: "Project Overview",
-            body: "EcoWing focuses on a practical environmental challenge: Hong Kong has extensive and geographically complex coastlines, including remote beaches, rocky shores, and offshore islands. Traditional coastal cleanup often relies heavily on manual inspection and collection, which can be inefficient, costly, and risky in difficult terrain. EcoWing proposes a data-driven coastal management workflow where drones capture coastal images, AI models identify waste hotspots, and the web platform visualizes results for cleanup planning and decision-making.",
-          },
-          {
             title: "Innovation",
-            body: "EcoWing is not only about using drones to clean waste. Its innovation is the closed-loop AI + Drone + Data Platform system. Drones collect coastline image data, YOLO / OpenCV identifies and classifies waste, and the web platform turns detection results into readable, manageable, and trackable data. Through the dashboard and live map, users can inspect pollution distribution, risk levels, cleanup areas, and waste types for more efficient action planning.",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-drone-crew.png",
+                alt: "EcoWing drone crew concept showing waste collection and transportation for remote areas",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-competitive-edges.png",
+                alt: "EcoWing competitive edges slide comparing manual collection and existing cleanup solutions",
+              },
+            ],
+            items: [
+              {
+                title: "Detection",
+                body: "Drones collect coastline image data, while YOLO / OpenCV identifies and classifies waste into usable environmental information.",
+              },
+              {
+                title: "Data interface",
+                body: "The web platform turns detection results into readable, manageable, and trackable data through dashboard analytics, live maps, reports, and management flows.",
+              },
+              {
+                title: "Action planning",
+                body: "Users can inspect pollution distribution, risk levels, cleanup areas, and waste types to support more efficient planning for NGOs, contractors, government teams, and ESG partners.",
+              },
+            ],
           },
           {
             title: "Importance",
-            body: "EcoWing addresses three key needs in coastal environmental management: operational efficiency, worker safety, and environmental accountability. By identifying waste hotspots before cleanup teams arrive, the system helps allocate resources more accurately. In remote beaches, rocky areas, or post-typhoon environments, drones reduce the need for workers to enter hazardous locations. Through reports and visual analytics, cleanup activities can be measured, compared, and communicated for ESG reporting, public education, NGO campaigns, and policy research.",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-challenge.png",
+                alt: "EcoWing challenge slide showing coastal waste scale, cost, and manual cleanup limits",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-impact.png",
+                alt: "EcoWing impact slide showing environmental resilience, worker safety, and circular ecosystem value",
+              },
+            ],
+            items: [
+              {
+                title: "Operational efficiency",
+                body: "By identifying waste hotspots before cleanup teams arrive, EcoWing reduces unnecessary patrol time and helps teams allocate resources more accurately.",
+              },
+              {
+                title: "Worker safety",
+                body: "In remote beaches, rocky areas, or post-typhoon environments, drones reduce the need for workers to enter hazardous or physically demanding locations.",
+              },
+              {
+                title: "Environmental accountability",
+                body: "Reports and visual analytics make cleanup activities measurable, comparable, and easier to communicate for ESG reporting, public education, NGO campaigns, and policy research.",
+              },
+            ],
           },
           {
             title: "Future Growth",
-            body: "EcoWing can grow from a web-based monitoring prototype into a broader coastal management service. Phase 1 focuses on data mapping for waste identification, hotspot marking, cleanliness maps, and analytics. Phase 2 adds drone waste transport for remote or hard-to-access areas. Phase 3 develops automated collection and multi-terrain adaptability through drones, grippers, and supporting ground or water equipment. Through this staged development, EcoWing can expand into a scalable environmental technology platform for monitoring, cleanup coordination, and impact reporting.",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-timeline.png",
+                alt: "EcoWing timeline slide showing Phase 1, Phase 2, and Phase 3 milestones from Q1 2026 to Q1 2027",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-target-market.png",
+                alt: "EcoWing target market slide showing TAM, SAM, and SOM for coastal cleanup service and equipment",
+              },
+            ],
+            items: [
+              {
+                title: "Phase 1: Data Mapping Service",
+                body: "Provide waste identification, pollution hotspot marking, cleanliness maps, and analytics for coastal monitoring.",
+              },
+              {
+                title: "Phase 2: Drone Waste Transport",
+                body: "Introduce drone transport for remote or hard-to-access areas, helping cleanup teams move lightweight waste more efficiently.",
+              },
+              {
+                title: "Phase 3: Drone Waste Collection System",
+                body: "Develop automated collection and multi-terrain adaptability with drones, grippers, and supporting ground or water equipment.",
+              },
+            ],
           },
         ],
       },
@@ -807,9 +913,9 @@ const projectCaseStudies = {
           detailEyebrow: "平台能力",
           detailTitle: "EcoWing 平台如何支持海岸废物治理",
           galleryEyebrow: "Live Web 页面",
-          galleryTitle: "线上网站可直接看到的产品流程",
+          galleryTitle: "页面介绍",
           buildEyebrow: "案例说明",
-          buildTitle: "项目概览、创新点、重要性与未来发展",
+          buildTitle: "创新点、重要性与未来发展",
         },
         summary: [
           "EcoWing 是一个面向海岸废物治理场景的 AI 驱动型 Web 平台，项目最初为 HK Techathon ESG Pitch 而设计。该项目结合无人机巡查、YOLO 目标检测与数据分析技术，旨在提升海岸废物识别、污染热点监测、清洁规划与成效评估的效率。",
@@ -846,11 +952,22 @@ const projectCaseStudies = {
             alt: "EcoWing 登录弹窗截图",
             caption: "Login：保护报告管理和平台工作流的登录入口。",
           },
+          {
+            src: "assets/project-screenshots/ecowing-solution-data-analytics.png",
+            alt: "EcoWing 数据分析解决方式展示图",
+            caption: "Our Solution：通过实时清洁地图、综合废物报告和数据化成效评估，把海岸垃圾观测转化为可执行的清理决策。",
+          },
         ],
         links: [
           { label: "Live Demo", href: "https://ecowing.hk", primary: true },
           { label: "GitHub", href: "https://github.com/ryanST888/Ecowing-main" },
         ],
+        resource: {
+          eyebrow: "项目 PDF",
+          title: "查看 EcoWing 完整展示文件",
+          body: "点击打开加水印版 TPE PDF，查看完整 presentation 材料。",
+          href: "pdf-viewer.html",
+        },
         meta: [
           ["角色", "全栈 Web 平台开发者。负责 EcoWing Web 平台的界面设计、交互实现与功能整合。"],
           [
@@ -875,20 +992,85 @@ const projectCaseStudies = {
         ],
         story: [
           {
-            title: "项目概览",
-            body: "EcoWing 关注一个真实的环境治理问题：香港拥有复杂且分散的海岸线，包括偏远沙滩、岩石海岸和离岛区域。传统海岸清理高度依赖人工巡查与收集，在复杂地形中往往效率低、成本高，并存在安全风险。EcoWing 提出数据驱动的海岸治理流程：无人机采集海岸图像，AI 模型识别废物热点，Web 平台将结果可视化，用于清洁规划与决策。",
-          },
-          {
             title: "创新点",
-            body: "EcoWing 的创新不只是“使用无人机清理垃圾”，而是建立完整的 AI + Drone + Data Platform 闭环系统。无人机负责快速获取海岸图像数据，YOLO / OpenCV 负责识别和分类废物，Web 平台则负责将识别结果转化为可读、可管理、可追踪的数据界面。通过 Dashboard 和 Live Map，用户可以查看污染分布、风险等级、清理区域和废物类型，从而辅助 NGO、清洁承包商、政府部门和 ESG 合作方进行更高效的行动规划。",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-drone-crew.png",
+                alt: "EcoWing Drone Crew 方案图，展示偏远区域垃圾收集与运输概念",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-competitive-edges.png",
+                alt: "EcoWing Competitive Edges 说明图，对比人工清理与现有海岸清洁方案",
+              },
+            ],
+            items: [
+              {
+                title: "识别分类",
+                body: "无人机负责快速获取海岸图像数据，YOLO / OpenCV 负责识别和分类废物，将影像结果转化为可使用的环境信息。",
+              },
+              {
+                title: "数据界面",
+                body: "Web 平台将识别结果转化为可读、可管理、可追踪的数据界面，覆盖 Dashboard、Live Map、报告流程和管理入口。",
+              },
+              {
+                title: "行动规划",
+                body: "用户可以查看污染分布、风险等级、清理区域和废物类型，辅助 NGO、清洁承包商、政府部门和 ESG 合作方进行更高效的行动规划。",
+              },
+            ],
           },
           {
-            title: "项目重要性",
-            body: "EcoWing 满足海岸环境管理中的三个关键需求：提升运营效率、提高人员安全，以及加强环境责任追踪。系统可以在清理队伍到达前识别废物热点，减少不必要的巡查时间并帮助更准确地分配资源。在偏远沙滩、岩石区域或台风后环境中，无人机可以降低工作人员进入危险地点的需求。通过数据报告和可视化分析，清洁活动也能够被衡量、比较和清晰传播，为 ESG 报告、公众教育、NGO 行动和政策研究提供价值。",
+            title: "重要性",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-challenge.png",
+                alt: "EcoWing Challenge 说明图，展示海岸废物规模、治理成本与人工清理限制",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-impact.png",
+                alt: "EcoWing Impact 说明图，展示环境韧性、人员安全与循环生态价值",
+              },
+            ],
+            items: [
+              {
+                title: "运营效率",
+                body: "系统可以在清理队伍到达前识别废物热点，减少不必要的巡查时间，并帮助团队更准确地分配资源。",
+              },
+              {
+                title: "人员安全",
+                body: "在偏远沙滩、岩石区域或台风后环境中，无人机可以降低工作人员进入危险地点或高体力消耗区域的需求。",
+              },
+              {
+                title: "责任追踪",
+                body: "通过数据报告和可视化分析，清洁活动能够被衡量、比较和清晰传播，为 ESG 报告、公众教育、NGO 行动和政策研究提供价值。",
+              },
+            ],
           },
           {
             title: "未来发展",
-            body: "EcoWing 可以从 Web 监测原型发展为更完整的海岸治理服务。Phase 1 是 Data Mapping Service，提供海岸废物识别、污染热点标记、清洁地图和数据分析功能。Phase 2 是 Drone Waste Transport，在偏远或难以进入的区域引入无人机运输功能，协助清理团队完成轻量废物转运。Phase 3 是 Drone Waste Collection System，进一步发展自动化收集与多地形适配能力，结合无人机、机械爪和地面 / 水面设备，形成更完整的智能清洁系统。",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-timeline.png",
+                alt: "EcoWing 时间线说明图，展示 Q1 2026 到 Q1 2027 的三阶段发展里程碑",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-target-market.png",
+                alt: "EcoWing 目标市场说明图，展示海岸清理服务与设备市场的 TAM、SAM 和 SOM",
+              },
+            ],
+            items: [
+              {
+                title: "Phase 1：Data Mapping Service",
+                body: "提供海岸废物识别、污染热点标记、清洁地图和数据分析功能。",
+              },
+              {
+                title: "Phase 2：Drone Waste Transport",
+                body: "在偏远或难以进入的区域引入无人机运输功能，协助清理团队完成轻量废物转运。",
+              },
+              {
+                title: "Phase 3：Drone Waste Collection System",
+                body: "进一步发展自动化收集与多地形适配能力，结合无人机、机械爪和地面 / 水面设备，形成更完整的智能清洁系统。",
+              },
+            ],
           },
         ],
       },
@@ -1055,9 +1237,9 @@ const projectCaseStudies = {
           detailEyebrow: "平台能力",
           detailTitle: "EcoWing 平台如何支持海岸廢物治理",
           galleryEyebrow: "Live Web 頁面",
-          galleryTitle: "線上網站可直接看到的產品流程",
+          galleryTitle: "頁面介紹",
           buildEyebrow: "案例說明",
-          buildTitle: "項目概覽、創新點、重要性與未來發展",
+          buildTitle: "創新點、重要性與未來發展",
         },
         summary: [
           "EcoWing 是一個面向海岸廢物治理場景的 AI 驅動型 Web 平台，項目最初為 HK Techathon ESG Pitch 而設計。該項目結合無人機巡查、YOLO 目標檢測與數據分析技術，旨在提升海岸廢物識別、污染熱點監測、清潔規劃與成效評估的效率。",
@@ -1094,11 +1276,22 @@ const projectCaseStudies = {
             alt: "EcoWing 登錄彈窗截圖",
             caption: "Login：保護報告管理和平台工作流的登錄入口。",
           },
+          {
+            src: "assets/project-screenshots/ecowing-solution-data-analytics.png",
+            alt: "EcoWing 數據分析解決方式展示圖",
+            caption: "Our Solution：通過實時清潔地圖、綜合廢物報告和數據化成效評估，把海岸垃圾觀測轉化為可執行的清理決策。",
+          },
         ],
         links: [
           { label: "Live Demo", href: "https://ecowing.hk", primary: true },
           { label: "GitHub", href: "https://github.com/ryanST888/Ecowing-main" },
         ],
+        resource: {
+          eyebrow: "項目 PDF",
+          title: "查看 EcoWing 完整展示文件",
+          body: "點擊打開加水印版 TPE PDF，查看完整 presentation 材料。",
+          href: "pdf-viewer.html",
+        },
         meta: [
           ["角色", "全棧 Web 平台開發者。負責 EcoWing Web 平台的介面設計、交互實現與功能整合。"],
           [
@@ -1123,20 +1316,85 @@ const projectCaseStudies = {
         ],
         story: [
           {
-            title: "項目概覽",
-            body: "EcoWing 關注一個真實的環境治理問題：香港擁有複雜且分散的海岸線，包括偏遠沙灘、岩石海岸和離島區域。傳統海岸清理高度依賴人工巡查與收集，在複雜地形中往往效率低、成本高，並存在安全風險。EcoWing 提出數據驅動的海岸治理流程：無人機採集海岸圖像，AI 模型識別廢物熱點，Web 平台將結果可視化，用於清潔規劃與決策。",
-          },
-          {
             title: "創新點",
-            body: "EcoWing 的創新不只是「使用無人機清理垃圾」，而是建立完整的 AI + Drone + Data Platform 閉環系統。無人機負責快速獲取海岸圖像數據，YOLO / OpenCV 負責識別和分類廢物，Web 平台則負責將識別結果轉化為可讀、可管理、可追蹤的數據介面。通過 Dashboard 和 Live Map，用戶可以查看污染分佈、風險等級、清理區域和廢物類型，從而輔助 NGO、清潔承包商、政府部門和 ESG 合作方進行更高效的行動規劃。",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-drone-crew.png",
+                alt: "EcoWing Drone Crew 方案圖，展示偏遠區域垃圾收集與運輸概念",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-competitive-edges.png",
+                alt: "EcoWing Competitive Edges 說明圖，對比人工清理與現有海岸清潔方案",
+              },
+            ],
+            items: [
+              {
+                title: "識別分類",
+                body: "無人機負責快速獲取海岸圖像數據，YOLO / OpenCV 負責識別和分類廢物，將影像結果轉化為可使用的環境資訊。",
+              },
+              {
+                title: "數據介面",
+                body: "Web 平台將識別結果轉化為可讀、可管理、可追蹤的數據介面，覆蓋 Dashboard、Live Map、報告流程和管理入口。",
+              },
+              {
+                title: "行動規劃",
+                body: "用戶可以查看污染分佈、風險等級、清理區域和廢物類型，輔助 NGO、清潔承包商、政府部門和 ESG 合作方進行更高效的行動規劃。",
+              },
+            ],
           },
           {
-            title: "項目重要性",
-            body: "EcoWing 滿足海岸環境管理中的三個關鍵需求：提升營運效率、提高人員安全，以及加強環境責任追蹤。系統可以在清理隊伍到達前識別廢物熱點，減少不必要的巡查時間並幫助更準確地分配資源。在偏遠沙灘、岩石區域或颱風後環境中，無人機可以降低工作人員進入危險地點的需求。通過數據報告和可視化分析，清潔活動也能夠被衡量、比較和清晰傳播，為 ESG 報告、公眾教育、NGO 行動和政策研究提供價值。",
+            title: "重要性",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-challenge.png",
+                alt: "EcoWing Challenge 說明圖，展示海岸廢物規模、治理成本與人工清理限制",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-impact.png",
+                alt: "EcoWing Impact 說明圖，展示環境韌性、人員安全與循環生態價值",
+              },
+            ],
+            items: [
+              {
+                title: "營運效率",
+                body: "系統可以在清理隊伍到達前識別廢物熱點，減少不必要的巡查時間，並幫助團隊更準確地分配資源。",
+              },
+              {
+                title: "人員安全",
+                body: "在偏遠沙灘、岩石區域或颱風後環境中，無人機可以降低工作人員進入危險地點或高體力消耗區域的需求。",
+              },
+              {
+                title: "責任追蹤",
+                body: "通過數據報告和可視化分析，清潔活動能夠被衡量、比較和清晰傳播，為 ESG 報告、公眾教育、NGO 行動和政策研究提供價值。",
+              },
+            ],
           },
           {
             title: "未來發展",
-            body: "EcoWing 可以從 Web 監測原型發展為更完整的海岸治理服務。Phase 1 是 Data Mapping Service，提供海岸廢物識別、污染熱點標記、清潔地圖和數據分析功能。Phase 2 是 Drone Waste Transport，在偏遠或難以進入的區域引入無人機運輸功能，協助清理團隊完成輕量廢物轉運。Phase 3 是 Drone Waste Collection System，進一步發展自動化收集與多地形適配能力，結合無人機、機械爪和地面 / 水面設備，形成更完整的智能清潔系統。",
+            visuals: [
+              {
+                src: "assets/project-screenshots/ecowing-timeline.png",
+                alt: "EcoWing 時間線說明圖，展示 Q1 2026 到 Q1 2027 的三階段發展里程碑",
+              },
+              {
+                src: "assets/project-screenshots/ecowing-target-market.png",
+                alt: "EcoWing 目標市場說明圖，展示海岸清理服務與設備市場的 TAM、SAM 和 SOM",
+              },
+            ],
+            items: [
+              {
+                title: "Phase 1：Data Mapping Service",
+                body: "提供海岸廢物識別、污染熱點標記、清潔地圖和數據分析功能。",
+              },
+              {
+                title: "Phase 2：Drone Waste Transport",
+                body: "在偏遠或難以進入的區域引入無人機運輸功能，協助清理團隊完成輕量廢物轉運。",
+              },
+              {
+                title: "Phase 3：Drone Waste Collection System",
+                body: "進一步發展自動化收集與多地形適配能力，結合無人機、機械爪和地面 / 水面設備，形成更完整的智能清潔系統。",
+              },
+            ],
           },
         ],
       },
@@ -1335,9 +1593,10 @@ function updateNavToggleLabel() {
 
 function applyLanguage(language) {
   const dictionary = translations[language] || translations.en;
+  const pageTitleKey = document.body.getAttribute("data-page-title-key");
   currentLanguage = language;
   document.documentElement.lang = dictionary.htmlLang;
-  document.title = dictionary.title;
+  document.title = pageTitleKey && dictionary[pageTitleKey] ? dictionary[pageTitleKey] : dictionary.title;
 
   if (descriptionMeta) {
     descriptionMeta.setAttribute("content", dictionary.metaDescription);
@@ -1527,17 +1786,75 @@ function renderMetaList(container, items) {
   });
 }
 
+function createCardArticle(item) {
+  const article = document.createElement("article");
+  const title = document.createElement("h3");
+  const body = document.createElement("p");
+  title.textContent = item.title;
+  body.textContent = item.body;
+  article.append(title, body);
+  return article;
+}
+
+function createStoryMedia(visual) {
+  const figure = document.createElement("figure");
+  const image = document.createElement("img");
+  figure.className = "case-story-media";
+  image.src = visual.src;
+  image.alt = visual.alt || "";
+  image.loading = "lazy";
+  image.width = 2880;
+  image.height = 1620;
+  figure.append(image);
+  return figure;
+}
+
 function renderCardList(container, items) {
   container.replaceChildren();
+  container.classList.remove("is-grouped");
+
+  if (items.some((item) => Array.isArray(item.items))) {
+    container.classList.add("is-grouped");
+
+    items.forEach((group) => {
+      const section = document.createElement("section");
+      const title = document.createElement("h3");
+      const grid = document.createElement("div");
+
+      section.className = "case-story-group";
+      grid.className = "case-story-group-grid";
+      title.textContent = group.title;
+
+      (group.items || []).forEach((item) => {
+        grid.append(createCardArticle(item));
+      });
+
+      const visuals = group.visuals || (group.visual ? [group.visual] : []);
+
+      if (visuals.length === 1) {
+        grid.append(createStoryMedia(visuals[0]));
+      }
+
+      if (visuals.length > 1) {
+        const mediaRow = document.createElement("div");
+        mediaRow.className = "case-story-media-row";
+
+        visuals.forEach((visual) => {
+          mediaRow.append(createStoryMedia(visual));
+        });
+
+        grid.append(mediaRow);
+      }
+
+      section.append(title, grid);
+      container.append(section);
+    });
+
+    return;
+  }
 
   items.forEach((item) => {
-    const article = document.createElement("article");
-    const title = document.createElement("h3");
-    const body = document.createElement("p");
-    title.textContent = item.title;
-    body.textContent = item.body;
-    article.append(title, body);
-    container.append(article);
+    container.append(createCardArticle(item));
   });
 }
 
@@ -1597,6 +1914,25 @@ function renderGallery(section, container, screenshots = []) {
   });
 }
 
+function renderResource(section, resource) {
+  if (!section) {
+    return;
+  }
+
+  const link = section.querySelector("[data-case-resource-link]");
+
+  if (!resource || !resource.href || !link) {
+    section.hidden = true;
+    return;
+  }
+
+  section.hidden = false;
+  link.href = resource.href;
+  setText("[data-case-resource-eyebrow]", resource.eyebrow);
+  setText("[data-case-resource-title]", resource.title);
+  setText("[data-case-resource-body]", resource.body);
+}
+
 function getProjectContent(language) {
   const catalog = projectCaseStudies[language] || projectCaseStudies.en;
   const params = new URLSearchParams(window.location.search);
@@ -1622,6 +1958,7 @@ function renderProjectPage(language = currentLanguage) {
   const linkContainer = document.querySelector("[data-case-links]");
   const gallerySection = document.querySelector("[data-case-gallery-section]");
   const galleryContainer = document.querySelector("[data-case-gallery]");
+  const resourceSection = document.querySelector("[data-case-resource-section]");
   const pageUi = { ...catalog.ui, ...(project.ui || {}) };
   const summaryText = Array.isArray(project.summary) ? project.summary.join(" ") : project.summary;
 
@@ -1667,6 +2004,7 @@ function renderProjectPage(language = currentLanguage) {
   }
 
   renderGallery(gallerySection, galleryContainer, project.screenshots);
+  renderResource(resourceSection, project.resource);
 }
 
 const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
