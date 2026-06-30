@@ -1058,6 +1058,38 @@ h3 {
   padding: 26px;
 }
 
+.timeline-link {
+  position: relative;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.timeline-link::before {
+  background: linear-gradient(90deg, var(--accent), var(--cyan), var(--warm));
+  content: "";
+  height: 3px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: opacity 180ms ease, transform 220ms ease;
+  width: 100%;
+}
+
+.timeline-link:hover,
+.timeline-link:focus-visible {
+  border-color: rgba(31, 107, 91, 0.34);
+  box-shadow: 0 22px 54px rgba(32, 39, 35, 0.12);
+  transform: translateY(-4px);
+}
+
+.timeline-link:hover::before,
+.timeline-link:focus-visible::before {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
 .timeline-meta span,
 .project-topline span {
   color: var(--warm);
@@ -1069,6 +1101,18 @@ h3 {
 .project-card p {
   color: var(--muted);
   margin-bottom: 0;
+}
+
+.timeline-action {
+  color: var(--accent-strong);
+  display: inline-flex;
+  font-weight: 900;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.timeline-action::after {
+  content: "->";
 }
 
 .project-grid {
